@@ -65,6 +65,7 @@ h{
     background-color:#ADAAAA;
 }
 form{
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,6 +97,21 @@ button{
     position: absolute; 
     right:20px;
     top:3px;
+}
+.tooltip{
+    
+    position: absolute;
+    z-index: 10;
+    width: 300px;
+    height: 50px;
+    background-color: slategray;
+    /* opacity: 10;; */
+
+    /* right: 10px;
+    top: -50px;
+    font-size: 15px; */
+
+
 }
 
 @media only screen and (max-width:768px){
